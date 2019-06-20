@@ -1,0 +1,21 @@
+{
+  "name": "node-api-crud",
+  "version": "1.0.0",
+  "description": "Construindo API em Node.js + Express + MongoDB",
+  "main": "server.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --report spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CarlosFariass/nodejs-express-mongo-crud"
+  },
+  "dependencies": {
+    "body-parser": "~1.18.1",
+    "express": "^4.17.1",
+    "mongoose": "^5.6.0",
+    "request": "2.82.0"
+  },
+  "author": "Carlos Farias",
+  "license": "MIT"
+}
