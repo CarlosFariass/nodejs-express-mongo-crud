@@ -4,7 +4,7 @@
   "description": "Construindo API em Node.js + Express + MongoDB",
   "main": "server.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha --report spec"
+    "dev": "nodemon"
   },
   "repository": {
     "type": "git",
@@ -17,5 +17,8 @@
     "request": "2.82.0"
   },
   "author": "Carlos Farias",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
 }
